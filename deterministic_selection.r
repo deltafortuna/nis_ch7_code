@@ -9,7 +9,6 @@ deterministic_selection <- function(N, s, h, epsilon)
 	frequency <- c(p)
 	popfit <- c(calc_population_fitness(p, marg_fitness))
 
-
 	while (p <= 1-epsilon) {
 		gen <- c(gen, timecount <- timecount + 1)
 		marg_fitness <- calc_marginal_fitness(fitness, p)
