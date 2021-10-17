@@ -1,4 +1,4 @@
-analyze_selective_regime <- function(relfitAA, relfitAa, relfitaa)
+analyze_selective_regime <- function(s,h,relfitAA, relfitAa, relfitaa)
 {
 	p <- seq(0,1,0.001)
 	q <- 1-p
